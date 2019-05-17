@@ -1,0 +1,5 @@
+<%= fields_for :cocktail do |ff| %>
+  <%= ff.text_field :name %>
+  <%= ff.text_field :doses %>
+  <%= ff.submit class: 'btn btn-primary' %>
+<% end %>
